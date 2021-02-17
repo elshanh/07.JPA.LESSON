@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+    xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    
+	<persistence-unit name="persistence-unit" transaction-type="RESOURCE_LOCAL">
+		
+		<class>eh.project.l01.entity.L04_Student</class>
+		<class>eh.project.l01.entity.L09_Student</class>
+		<class>eh.project.l01.entity.L10_Contact</class>
+		<class>eh.project.l01.entity.L10_User</class>
+		<class>eh.project.l01.entity.L11_User</class>
+		<class>eh.project.l01.entity.L12_Student</class>
+		<class>eh.project.l01.entity.L13_Student</class>
+		<class>eh.project.l01.entity.L14_Address</class>
+		<class>eh.project.l01.entity.L14_Student</class>
+		<class>eh.project.l01.entity.L15_Student</class>
+		<class>eh.project.l01.entity.L16_Student</class>
+		<class>eh.project.l01.entity.L17_Student</class>
+		<class>eh.project.l01.entity.L18_Address</class>
+		<class>eh.project.l01.entity.L18_Student</class>
+		<class>eh.project.l01.entity.L19_Address</class>
+		<class>eh.project.l01.entity.L19_Student</class>		
+
+		
+		<properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/IFA"/>
+            <property name="javax.persistence.jdbc.user" value="root" />
+            <property name="javax.persistence.jdbc.password" value="" />  
+            
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect"/>
+            
+            <!-- value create olduqda her defe cedveli Drop edir -->
+            <!--  <property name="hibernate.hbm2ddl.auto" value="create" />-->
+            
+            <!-- value update olduqda her defe cedveli Drop etmir -->
+            <!--  <property name="hibernate.hbm2ddl.auto" value="update" />-->
+            
+            <property name="hibernate.hbm2ddl.auto" value="create" />
+            
+            <property name="current_session_context_class" value="thread" />
+            
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.format_sql" value="true" />
+            
+        </properties>        
+        
+        
+    </persistence-unit>
+</persistence>
