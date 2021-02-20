@@ -21,7 +21,18 @@
 		<class>eh.project.l01.entity.L18_Student</class>
 		<class>eh.project.l01.entity.L19_Address</class>
 		<class>eh.project.l01.entity.L19_Student</class>		
-
+		<class>eh.project.l01.entity.L20_Address</class>
+		<class>eh.project.l01.entity.L20_Student</class>
+		<class>eh.project.l01.entity.L21_Student</class>
+		<class>eh.project.l01.entity.L21_Lesson</class>
+		<class>eh.project.l01.entity.L22_Student</class>
+		<class>eh.project.l01.entity.L22_Lesson</class>
+		<class>eh.project.l01.entity.L23_Student</class>
+		<class>eh.project.l01.entity.L23_Lesson</class>
+		<class>eh.project.l01.entity.L24_Student</class>
+		<class>eh.project.l01.entity.L24_Lesson</class>
+		<class>eh.project.l01.entity.L25_Student</class>
+		<class>eh.project.l01.entity.L25_Course</class>
 		
 		<properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
