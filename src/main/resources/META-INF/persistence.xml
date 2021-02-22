@@ -33,6 +33,12 @@
 		<class>eh.project.l01.entity.L24_Lesson</class>
 		<class>eh.project.l01.entity.L25_Student</class>
 		<class>eh.project.l01.entity.L25_Course</class>
+		<class>eh.project.l01.entity.L26_Brand</class>
+		<class>eh.project.l01.entity.L26_Category</class>
+		<class>eh.project.l01.entity.L26_Product</class>
+		<class>eh.project.l01.entity.L27_Brand</class>
+		<class>eh.project.l01.entity.L27_Category</class>
+		<class>eh.project.l01.entity.L27_Product</class>
 		
 		<properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
